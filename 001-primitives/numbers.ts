@@ -15,5 +15,5 @@ export const sumArray = (...arr: number[]): number => {
 };
 
 export const divide = (n: number, divider: number): number => {
-  return null;
+  return n / divider;
 };
