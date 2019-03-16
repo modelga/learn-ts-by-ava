@@ -23,7 +23,7 @@ test("sum array of 4 elements", t => {
 
 [[4, 2, 2], [5, 1, 5], [3, 6, 0.5], [-1, 10, -0.1]].map(
   ([n, divider, aResult]) => {
-    test.only(`divide ${n}/${divider} should equals = ${aResult}`, t => {
+    test(`divide ${n}/${divider} should equals = ${aResult}`, t => {
       const result = numbers.divide(n, divider);
       t.is(result, aResult);
     });
