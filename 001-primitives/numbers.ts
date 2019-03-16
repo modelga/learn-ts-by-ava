@@ -2,7 +2,7 @@ export const incrementedByOne = (n: number): number => {
   return null;
 };
 
-export const sum = (by: number, n: number): number => {
+export const sum = (a: number, b: number): number => {
   return null;
 };
 
