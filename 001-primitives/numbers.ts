@@ -9,3 +9,7 @@ export const sum = (a: number, b: number): number => {
 export const sumArray = (...arr: number[]): number => {
   return null;
 };
+
+export const divide = (n: number, divider: number): number => {
+  return null;
+};
