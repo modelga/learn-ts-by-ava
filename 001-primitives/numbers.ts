@@ -7,11 +7,7 @@ export const sum = (a: number, b: number): number => {
 };
 
 export const sumArray = (...arr: number[]): number => {
-  let res = 0;
-  for (const n of arr) {
-    res = res + n;
-  }
-  return res;
+  return arr.reduce(sum, 0);
 };
 
 export const divide = (n: number, divider: number): number => {
